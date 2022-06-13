@@ -89,7 +89,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 
 Our protocol is watched meticulously by our Overseer System day <br/>and night. Keeping your mind at ease as it buys on the
  lower peg  <br/> and sells on the upper peg,  ensuring the price doesn't skyrocket or <br/>collapse! Meanwhile filling the
-  Liquidity pool and itself to ensure a <br/>smooth price bound token.
+  Liquidity pool and itself to ensure a smooth price bound token.
 
             </p>
                           
@@ -107,13 +107,8 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
             -Price per node : 10 NeFi tokens150,000<br/>
             Node Cap : 150,000<br/>
             </p>
-            <p className="para_p  ">-To purchase our token head over to our in house swap located at <br/> http://swap.nebfi.io/ and purchase 10 NeFi tokens then goto our <br/>DApp to get your ticket to be a Nebulan!v
-
-<br/>
-<br/>
-<br/>
-
-            </p>
+            <p className="para_p  ">-Total Supply : 1,200,000 NeFi Tokens <br/>
+            
 				</div>
 				</div>
 				</div>

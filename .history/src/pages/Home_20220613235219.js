@@ -89,7 +89,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 
 Our protocol is watched meticulously by our Overseer System day <br/>and night. Keeping your mind at ease as it buys on the
  lower peg  <br/> and sells on the upper peg,  ensuring the price doesn't skyrocket or <br/>collapse! Meanwhile filling the
-  Liquidity pool and itself to ensure a <br/>smooth price bound token.
+  Liquidity pool and itself to ensure a <>smooth price bound token.
 
             </p>
                           

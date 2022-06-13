@@ -68,7 +68,7 @@ function Home() {
 			<div className="col-sm-12 col-md-12 col-lg-12">
             <h1 className="h1_head_sml">Welcome to</h1>
             <h1 className="h1_heading">Tokenomics </h1>
-            <p className="para_p  ">The Overseer <br/>
+            <p className="para_p  ">The Overseer 
 
 Our protocol is watched meticulously by our Overseer System day <br/>and night. Keeping your mind at ease as it buys on the
  lower peg  <br/> and sells on the upper peg,  ensuring the price doesn't skyrocket or <br/>collapse! Meanwhile filling the
@@ -80,40 +80,20 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 				</div>
 				</div>
                 </section>
-                <section id="About_nebula " className="second_sec ">
+                <section id="About_nebula " className="first_sec ">
 	<div className="container  nebula_sec">
 		<div className="row">
 			<div className="col-sm-12 col-md-12 col-lg-12">
+            <h1 className="h1_head_sml">Welcome to</h1>
             <h1 className="h1_heading">Tokenomics </h1>
             <p className="para_p  ">The Overseer
 
 Our protocol is watched meticulously by our Overseer System day <br/>and night. Keeping your mind at ease as it buys on the
  lower peg  <br/> and sells on the upper peg,  ensuring the price doesn't skyrocket or <br/>collapse! Meanwhile filling the
-  Liquidity pool and itself to ensure a <br/>smooth price bound token.
+  Liquidity pool and itself to ensure a smooth price bound token.
 
             </p>
                           
-				</div>
-				</div>
-				</div>
-                </section>
-                <section id="About_nebula " className="second_sec ">
-	<div className="container  nebula_sec">
-		<div className="row">
-			<div className="col-sm-12 col-md-12 col-lg-12">
-            <h1 className="h1_heading"> How To Buy</h1>
-            <p className="para_p  ">-Total Supply : 1,200,000 NeFi Tokens <br/>
-            - Payout : 0.1 of a token per day <br/>
-            -Price per node : 10 NeFi tokens150,000<br/>
-            Node Cap : 150,000<br/>
-            </p>
-            <p className="para_p  ">-To purchase our token head over to our in house swap located at <br/> http://swap.nebfi.io/ and purchase 10 NeFi tokens then goto our <br/>DApp to get your ticket to be a Nebulan!v
-
-<br/>
-<br/>
-<br/>
-
-            </p>
 				</div>
 				</div>
 				</div>

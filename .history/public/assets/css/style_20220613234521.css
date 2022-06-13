@@ -42,8 +42,8 @@ width: 100%;
 }.second_sec{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('image_second.png') !important;
-    padding: 15% 15%;
+    background-image: url('image.png') !important;
+    padding: 18% 15%;
 }
 
 .bg-nav{
