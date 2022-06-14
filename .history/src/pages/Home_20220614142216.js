@@ -74,10 +74,11 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
   Liquidity pool and itself to ensure a <br/>smooth price bound token.
 
             </p>
-    
+            </p>
             <button className="btn_ion">
             link to docs
-                            </button>    
+                            </button>
+                          
 				</div>
 				</div>
 				</div>
@@ -99,7 +100,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 
             </p>
             <button className="btn_ion">
-            Buy on Trader Joe
+            link to docs
                             </button>
 				</div>
                 <div className="col-sm-12 col-md-12 col-lg-2"> 

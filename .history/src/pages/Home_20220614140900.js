@@ -74,10 +74,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
   Liquidity pool and itself to ensure a <br/>smooth price bound token.
 
             </p>
-    
-            <button className="btn_ion">
-            link to docs
-                            </button>    
+                          
 				</div>
 				</div>
 				</div>
@@ -85,7 +82,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
                 <section id="About_nebula " className="third_sec ">
 	<div className="container  nebula_sec">
 		<div className="row">
-			<div className="col-sm-12 col-md-12 col-lg-10">
+			<div className="col-sm-12 col-md-12 col-lg-9">
             <h1 className="h1_heading set_font"> Tokenomics</h1>
             <p className="para_p  ">-Total Supply : 1,200,000 NeFi Tokens <br/>
             - Payout : 0.1 of a token per day <br/>
@@ -98,12 +95,9 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 
 
             </p>
-            <button className="btn_ion">
-            Buy on Trader Joe
-                            </button>
 				</div>
-                <div className="col-sm-12 col-md-12 col-lg-2"> 
-                <img class="image_ad" src="assets/images/sec3inner.png" />
+                <div className="col-sm-12 col-md-12 col-lg-3"> 
+                <img class="seicon" src="images/sec3inner.svg" />
                 </div>
 				</div>
 				</div>

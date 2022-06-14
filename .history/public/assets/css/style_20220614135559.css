@@ -45,46 +45,15 @@ width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('image_second_2.png') !important;
-    padding:12% 15% 24% 15%;
+    padding: 15% 15%;
     z-index: 99;
     position: relative;
     top: -6em;
 }
-.third_sec{
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url('image_second_3.png') !important;
-    padding: 12% 15%;
-    z-index: 125;
-    position: relative;
-    top: -10em;
-}
 .set_font{
-    text-transform: capitalize !important;
+font-style: c
 }
-.image_ad{
-    margin: auto;
-    display: block;
-    position: absolute;
-    bottom: -2em;
-    width: 250px;
-    right: -2em;
-}
-.btn_ion{
-    background: #FFFFFF;
-border-radius: 9px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 48px;
-padding: 10px 50px;
-border: none;
-color: #2C2C2C;
-}
-.btn_ion:hover{
-    background: #ded3d3;
-}
+
 .bg-nav{
     margin-top: 25px;
     padding: 0 6%;

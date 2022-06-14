@@ -99,7 +99,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 
             </p>
             <button className="btn_ion">
-            Buy on Trader Joe
+            link to docs
                             </button>
 				</div>
                 <div className="col-sm-12 col-md-12 col-lg-2"> 
