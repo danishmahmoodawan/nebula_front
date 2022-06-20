@@ -3,10 +3,6 @@ body{
     background: #070B26;
     font-family: 'Poppins';
 }
-html, body{
-    overflow-x: hidden;
-    position: relative;
-}
 .nebula_sec{
     /* background: linear-gradient(108.98deg, rgba(255, 255, 255, 0.37) -9.68%, rgba(255, 255, 255, 0.26) -9.67%, rgba(217, 217, 217, 0) 99.34%);
 backdrop-filter: blur(40px);
@@ -14,12 +10,6 @@ padding: 8% 5%; */
 /* Note: backdrop-filter has minimal browser support */
 
 /* border-radius: 64px; */
-}
-.footer_sec{
-    padding: 2%;
-}
-.icons_footer{
-padding: 3% 0 0 0;
 }
 .h1_heading{
     font-family: 'Poppins';
@@ -271,14 +261,8 @@ margin: 30px 20px;
             display: inline-block;
             position: absolute;
             top: 67em;
-            left: 15em;
+            left: -6em;
             z-index: -99;
-        }
-      .navbar-footer  .logo_s{
-width: 60%;
-        }
-        .footer_sec {
-            padding: 20% 10%;
         }
 
 }

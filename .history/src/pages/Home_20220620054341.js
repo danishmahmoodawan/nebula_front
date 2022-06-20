@@ -175,7 +175,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
         </div>
         </div>
 </div>
-<div className="row icons_footer"> 
+<div className="row"> 
 <div className="col-sm-12 text-right ">
 <span className="navbar-text " >
                             <a href="https://twitter.com/zerozeronft" target={{target:"_blank"}}>

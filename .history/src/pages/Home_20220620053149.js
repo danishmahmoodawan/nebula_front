@@ -131,13 +131,13 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
                 <section id="footer_nebula " className="footer_sec ">
 	<div className="container-fluid ">
 		<div className="row">
-			<div className="col-sm-12 col-md-4 col-lg-2 text-center p-0">
-            <a className="navbar-brand navbar-footer" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>                 
+			<div className="col-sm-12 col-md-4 col-lg-3 text-center p-0">
+            <a className="navbar-brand" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>                 
 				</div>
-                <div className="col-sm-12 col-md-4 col-lg-5 text-center p-0">
+                <div className="col-sm-12 col-md-4 col-lg-3 text-center p-0">
                           
 				</div>
-                <div className="col-sm-12 col-md-4 col-lg-2 text-center p-0">
+                <div className="col-sm-12 col-md-4 col-lg-3 text-center p-0">
         <div class="footer_links">
         <ul className="navbar-nav m-auto">
                         <li className="nav-item active">
@@ -174,23 +174,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
         </ul>
         </div>
         </div>
-</div>
-<div className="row icons_footer"> 
-<div className="col-sm-12 text-right ">
-<span className="navbar-text " >
-                            <a href="https://twitter.com/zerozeronft" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/icon/medium_icon.png"/>
-                            </a>
-                            <a href="https://opensea.io/collection/zero-project" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/icon/icon_twitter.svg"/>
-                            </a>
-                            <a href="https://twitter.com/zerozeronft" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/icon/icon_discord.svg"/>
-                            </a>
-                           
-                    </span>
-</div>
-</div>
+				</div>
 				</div>
                 </section>
                     </footer>

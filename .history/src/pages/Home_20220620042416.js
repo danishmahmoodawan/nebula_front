@@ -62,7 +62,7 @@ function Home() {
 				</div>
 				</div>
                 </section>
-                <span class="circledot"></span>
+ 
                 <section id="About_nebula " className="second_sec ">
 	<div className="container  nebula_sec">
 		<div className="row">
@@ -82,7 +82,6 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 				</div>
 				</div>
                 </section>
-                <span class="dimonds"></span>
                 <section id="About_nebula " className="third_sec ">
 	<div className="container  nebula_sec">
 		<div className="row">
@@ -118,82 +117,13 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 				</div>
 				</div>
                 <div className="row">
-			<div className="col-sm-12 col-md-12 col-lg-12 p-0">
-            <img class="" src="assets/images/svgnew.png" />    
+			<div className="col-sm-12 col-md-12 col-lg-12">
+            <img class="" src="assets/images/group15.svg" />    
    
 				</div>
 				</div>
 				</div>
                 </section>
-
-
-                <footer>
-                <section id="footer_nebula " className="footer_sec ">
-	<div className="container-fluid ">
-		<div className="row">
-			<div className="col-sm-12 col-md-4 col-lg-2 text-center p-0">
-            <a className="navbar-brand navbar-footer" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>                 
-				</div>
-                <div className="col-sm-12 col-md-4 col-lg-5 text-center p-0">
-                          
-				</div>
-                <div className="col-sm-12 col-md-4 col-lg-2 text-center p-0">
-        <div class="footer_links">
-        <ul className="navbar-nav m-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#home">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#tokenmics">Tokenomics</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#buyying">How To Buy</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#team">Team</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#docs">Docs</a>
-                        </li>
-                        
-                    </ul>
-          </div>        
-				</div>
-                <div className="col-sm-12 col-md-4 col-lg-3 text-center p-0">
-        <div class="footer_links">
-        <ul className="navbar-nav m-auto">
-        <li className="nav-item">
-                            <a className="nav-link" href="#docs">Team</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#docs">xxxxxxxxx</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#docs">xxxxxxxxx</a>
-                        </li>
-        </ul>
-        </div>
-        </div>
-</div>
-<div className="row icons_footer"> 
-<div className="col-sm-12 text-right ">
-<span className="navbar-text " >
-                            <a href="https://twitter.com/zerozeronft" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/icon/medium_icon.png"/>
-                            </a>
-                            <a href="https://opensea.io/collection/zero-project" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/icon/icon_twitter.svg"/>
-                            </a>
-                            <a href="https://twitter.com/zerozeronft" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/icon/icon_discord.svg"/>
-                            </a>
-                           
-                    </span>
-</div>
-</div>
-				</div>
-                </section>
-                    </footer>
 	</>
   );
 }

@@ -4,8 +4,7 @@ body{
     font-family: 'Poppins';
 }
 html, body{
-    overflow-x: hidden;
-    position: relative;
+    overflow-x: none;
 }
 .nebula_sec{
     /* background: linear-gradient(108.98deg, rgba(255, 255, 255, 0.37) -9.68%, rgba(255, 255, 255, 0.26) -9.67%, rgba(217, 217, 217, 0) 99.34%);

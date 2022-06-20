@@ -3,10 +3,6 @@ body{
     background: #070B26;
     font-family: 'Poppins';
 }
-html, body{
-    overflow-x: hidden;
-    position: relative;
-}
 .nebula_sec{
     /* background: linear-gradient(108.98deg, rgba(255, 255, 255, 0.37) -9.68%, rgba(255, 255, 255, 0.26) -9.67%, rgba(217, 217, 217, 0) 99.34%);
 backdrop-filter: blur(40px);
@@ -14,12 +10,6 @@ padding: 8% 5%; */
 /* Note: backdrop-filter has minimal browser support */
 
 /* border-radius: 64px; */
-}
-.footer_sec{
-    padding: 2%;
-}
-.icons_footer{
-padding: 3% 0 0 0;
 }
 .h1_heading{
     font-family: 'Poppins';
@@ -163,12 +153,6 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
 .first_section{
     padding-top: 40px;
 }
-#footer_nebula{
-    background: #000422;
-}
-.footer_links a{
-    margin: 1px 14px !important;
-}
 
 
 @media screen and (max-width: 1220px) and (min-width: 992px) {
@@ -262,23 +246,18 @@ margin: 30px 20px;
            background: linear-gradient(150.38deg, #D96704 18.11%, #005343 99.67%);
         }
         .dimonds{
-            background: linear-gradient(72deg, #0D5046 0.66%, rgba(3, 60, 53, 0) 154.34%);
-            border-radius: 14px;
-            transform: rotate(168deg);
-            height: 250px;
-            width: 250px;
-            background-color: #bbb;
-            display: inline-block;
-            position: absolute;
-            top: 67em;
-            left: 15em;
-            z-index: -99;
-        }
-      .navbar-footer  .logo_s{
-width: 60%;
-        }
-        .footer_sec {
-            padding: 20% 10%;
+            background: linear-gradient(179.96deg, #415930 0.03%, #D06606 136.8%);
+            border-radius: 66px;
+            transform: rotate(-14.46deg);
+
+height: 250px;
+width: 250px;
+background-color: #bbb;
+display: inline-block;
+position: absolute;
+top: 31em;
+left: -6em;
+z-index: -99;
         }
 
 }
