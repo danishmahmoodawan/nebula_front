@@ -35,7 +35,7 @@ function Home() {
                             <a href="#" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/medium_icon.png"/>
                             </a>
-                            <a href="#" target={{target:"_blank"}}>
+                            <a href="https://opensea.io/collection/zero-project" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/icon_twitter.svg"/>
                             </a>
                             <a href="#" target={{target:"_blank"}}>

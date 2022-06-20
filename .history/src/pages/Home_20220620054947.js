@@ -32,13 +32,13 @@ function Home() {
                     </ul>
                     
                     <span className="navbar-text" >
-                            <a href="#" target={{target:"_blank"}}>
+                            <a href="https://twitter.com/zerozeronft" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/medium_icon.png"/>
                             </a>
-                            <a href="#" target={{target:"_blank"}}>
+                            <a href="https://opensea.io/collection/zero-project" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/icon_twitter.svg"/>
                             </a>
-                            <a href="#" target={{target:"_blank"}}>
+                            <a href="https://twitter.com/zerozeronft" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/icon_discord.svg"/>
                             </a>
                            
@@ -178,13 +178,13 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 <div className="row icons_footer"> 
 <div className="col-sm-12 text-right ">
 <span className="navbar-text " >
-                            <a href="#" target={{target:"_blank"}}>
+                            <a href="https://twitter.com/zerozeronft" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/medium_icon.png"/>
                             </a>
-                            <a href="#" target={{target:"_blank"}}>
+                            <a href="https://opensea.io/collection/zero-project" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/icon_twitter.svg"/>
                             </a>
-                            <a href="#" target={{target:"_blank"}}>
+                            <a href="#t" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/icon_discord.svg"/>
                             </a>
                            
