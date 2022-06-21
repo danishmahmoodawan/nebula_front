@@ -99,10 +99,10 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 
 
             </p>
-            <div className="btn_soc">
+            
                               <a  className="btn_ion" href="https://traderjoexyz.com/trade?outputCurrency=0x5AA2Ff4Ab706307d8B3D90A462c1ddC055655734#/" target={{target:"_blank"}}>
                             Buy on Trader Joe </a>
-                           </div>
+                           
 				</div>
                 <div className="col-sm-12 col-md-12 col-lg-2"> 
                 <img class="image_ad" src="assets/images/sec3inner.png" />

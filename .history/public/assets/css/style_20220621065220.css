@@ -355,3 +355,16 @@ width: 60%;
 
 }
 
+.dimonds{
+    background: linear-gradient(72deg, #0D5046 0.66%, rgba(3, 60, 53, 0) 154.34%);
+    border-radius: 14px;
+    transform: rotate(168deg);
+    height: 250px;
+    width: 250px;
+    background-color: #bbb;
+    display: inline-block;
+    position: absolute;
+    top: 67em;
+    left: 15em;
+    z-index: -99;
+}

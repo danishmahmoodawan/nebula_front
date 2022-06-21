@@ -74,10 +74,10 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
   Liquidity pool and itself to ensure a <br/>smooth price bound token.
 
             </p>
-           <div className="btn_soc">
-            <a  className="btn_ion" href="https://docs.nebulanodes.finance" target={{target:"_blank"}}>
-            link to docs </a>
-             </div>
+    
+            <button className="btn_ion">
+            link to docs
+                            </button>    
 				</div>
 				</div>
 				</div>
@@ -99,10 +99,9 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 
 
             </p>
-            <div className="btn_soc">
-                              <a  className="btn_ion" href="https://traderjoexyz.com/trade?outputCurrency=0x5AA2Ff4Ab706307d8B3D90A462c1ddC055655734#/" target={{target:"_blank"}}>
-                            Buy on Trader Joe </a>
-                           </div>
+            <button className="btn_ion">
+            Buy on Trader Joe
+                            </button>
 				</div>
                 <div className="col-sm-12 col-md-12 col-lg-2"> 
                 <img class="image_ad" src="assets/images/sec3inner.png" />
@@ -148,13 +147,13 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
                             <a className="nav-link" href="#tokenmics">Tokenomics</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#roadmap">How To Buy</a>
+                            <a className="nav-link" href="#buyying">How To Buy</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://docs.nebulanodes.finance">Docs</a>
+                            <a className="nav-link" href="#team">Team</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://app.nebulanodes.finance">Dapp</a>
+                            <a className="nav-link" href="#docs">Docs</a>
                         </li>
                         
                     </ul>
@@ -165,10 +164,10 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 <div className="row icons_footer"> 
 <div className="col-sm-12 text-right ">
 <span className="navbar-text " >
-                            <a href="https://medium.com/@wearenebulan" target={{target:"_blank"}}>
+                            <a href="#" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/medium_icon.png"/>
                             </a>
-                            <a href="https://twitter.com/NebulaNodes" target={{target:"_blank"}}>
+                            <a href="#" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/icon_twitter.svg"/>
                             </a>
                             <a href="https://discord.com/invite/dk8pCznAJP" target={{target:"_blank"}}>

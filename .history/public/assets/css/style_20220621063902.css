@@ -181,24 +181,7 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
 
 
 @media screen and (max-width: 1220px) and (min-width: 992px) {
-    .first_sec{
-        padding: 18% 10%;
-    }
-    .second_sec{
-        padding: 7% 5% 21% 9%;
-        top: -4em;
-    }
-    .third_sec{
-        padding: 3% 10%;
-    }
-    .para_p{
-        font-size: 18px;
-    }
-    .image_ad{
-        bottom: 1em;
-    width: 200px;
-    right: 1em;
-    }
+  
 }
 
 @media screen and (max-width: 1600px) and (min-width: 993px) {
@@ -254,8 +237,8 @@ margin: 30px 20px;
         background-color: #bbb;
         display: inline-block;
         position: absolute;
-        top: 53em;
-        left: 33em;
+        top: 67em;
+        left: 15em;
         z-index: -99;
     }
    
@@ -355,3 +338,4 @@ width: 60%;
 
 }
 
+  

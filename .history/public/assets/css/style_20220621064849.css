@@ -194,11 +194,7 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
     .para_p{
         font-size: 18px;
     }
-    .image_ad{
-        bottom: 1em;
-    width: 200px;
-    right: 1em;
-    }
+    .image_ad{}
 }
 
 @media screen and (max-width: 1600px) and (min-width: 993px) {
@@ -355,3 +351,4 @@ width: 60%;
 
 }
 
+  
