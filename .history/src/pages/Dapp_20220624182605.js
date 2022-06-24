@@ -1,0 +1,219 @@
+import React from 'react';
+  
+const Dapp = () => {
+  return (
+    <div>
+    <div class="header-dapp container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-light ">
+    <a className="navbar-brand" href="#"><img className="logo_s" src="assets/images/logo.png"/></a> 
+    </nav>
+    </div>
+    
+    <section className="tabs-section text-white">
+         <div className="container cont_tabs">
+            <div className="row">
+               <div className="col-sm-5 col-lg-4 col_side">
+                  <ul className="nav nav-tabs flex-column mb-3">
+                     <li className="nav-item">
+                        <a className="nav-link active show" data-toggle="tab" href="#tab-1">Dashboard</a>
+                     </li>
+                     <li className="nav-item">
+                        <a className="nav-link" data-toggle="tab" href="#tab-2">Nodes</a>
+                     </li>
+                     <li className="nav-item">
+                        <a className="nav-link" data-toggle="tab" href="#tab-3">NFTs</a>
+                     </li>
+                     <li className="nav-item">
+                        <a className="nav-link" data-toggle="tab" href="#tab-4">Swap</a>
+                     </li>
+                     <li className="nav-item">
+                        <a className="nav-link" data-toggle="tab" href="#tab-5">Bridge</a>
+                     </li>
+                  </ul>
+               </div>
+               <div className="col-sm-7 col-lg-8">
+                  <div className="tab-content">
+                     <div className="tab-pane active show" id="tab-1">
+<div className="container cont_dash">
+<div className="row">
+<div className="col-sm-12 col-md-4 col-lg-4 ps">
+<div className="content_div">
+<span className="elem_span">$Nebula Price</span>
+<span className="elem_span elem_bold">$0.0000</span>
+<span className="elem_span elem_sub">+0.00٪ last 24 hours</span>
+</div>
+</div>
+<div className="col-sm-12 col-md-4 col-lg-4 ps">
+<div className="content_div">
+<span className="elem_span">Market Cap</span>
+<span className="elem_span elem_bold">$0.0000</span>
+<span className="elem_span elem_sub">+0.00٪ last 24 hours</span>
+</div>
+</div>
+
+<div className="col-sm-12 col-md-4 col-lg-4 ps">
+<div className="content_div">
+<span className="elem_span">Overseas Fund</span>
+<span className="elem_span elem_bold">$0.0000</span>
+<span className="elem_span elem_sub">+0.00٪ last 24 hours</span>
+</div>
+</div>
+</div>
+</div>
+<div className="container cont_dash">
+<div className="row">
+<div className="col-sm-4">
+<div className="content_div">
+<span className="elem_span">All Nodes</span>
+<span className="elem_span elem_bold">0</span>
+</div>
+</div>
+<div className="col-sm-4">
+<div className="content_div">
+<span className="elem_span">My Nodes</span>
+<span className="elem_span elem_bold">-/-</span>
+</div>
+</div>
+
+<div className="col-sm-4">
+<div className="content_div">
+<span className="elem_span">My Rewards</span>
+<span className="elem_span elem_bold">-$nebula</span>
+
+</div>
+</div>
+</div>
+</div>
+<div className="container cont_dash">
+<div className="row ">
+<div className="col-sm-6">
+<div className="barimage">
+<img class="" src="assets/images/bar_image.png" />
+</div>
+</div>
+<div className="col-sm-6">
+<div className="col-sm-12 p-0">
+<div className="content_div marsets">
+<span className="elem_span">Node ROI in $nebula (Days)</span>
+<span className="elem_span elem_bold mb-3">infinity</span>
+</div>
+</div>
+
+<div className="col-sm-12 p-0">
+<div className="content_div marset">
+<span className="elem_span">Daily reward per node </span>
+<span className="elem_span elem_bold mb-3">0.00 $nebula</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+                                            </div>
+                     <div className="tab-pane" id="tab-2">
+                        <div className="row">
+                           <div className="col-sm-12">
+<div class="main_node">
+<h3>Nodes</h3>
+<form>
+  <label class="elem_span">
+  Nebula node name 
+    <input class="txts_feild" type="text" name="name" />
+  </label>
+  <label class="elem_span ">
+  Nebula tokens 
+    <input class="txts_feild "  placeholder="eg(10.0)" type="text" name="name" />
+  </label>
+</form>
+<div className="instruct"><h3>Note</h3>
+<h4>1 NebulaNode = 10 Nebu (if you have any problem
+ during migration send a message in
+ v2-migrate-help on discord)</h4>
+</div>
+</div>
+
+                               </div>
+                        </div>
+                     </div>
+                     <div className="tab-pane" id="tab-3">
+                        <div className="row">
+                        <h1>NFT's</h1>                        </div>
+                     </div>
+                     <div className="tab-pane" id="tab-4">
+                     <div className="container cont_dash">
+                     <div className="row">
+                           <div className="col-sm-12">
+<div class="main_swap">
+<h3>Swap</h3>
+<form>
+  <span className="elem_span ">From</span>
+ 
+  <label class="elem_span ">
+    <input class="txtss_feild "  placeholder="0.00 " type="text" name="name" />
+    <span className="lab_span dcl">AWAX</span>
+  </label>
+<div className="icon-exchnnage"> 
+  <i class='fasic fas fa-exchange-alt'></i>
+  <i class="fas fa-sliders" aria-hidden="true"></i>
+
+</div>
+<label class="elem_span ">
+<span className="elem_span ">To</span>
+    <input class="txtss_feild "  placeholder="0.00 " type="text" name="name" />
+    <span className="lab_span dcl">nebula</span>
+  </label>
+</form>
+<div className="price_table mt-5">
+<span className="elem_span dib">Price</span>
+<span className="elem_span dib righrspan">0 NEBUlA per AWAX</span>
+</div>
+<div className="price_table">
+<span className="elem_span dib">Auto Slippage</span>
+<span className="elem_span dib float-right">Active</span>
+</div>
+<div className="price_table mb-3">
+<span className="elem_span dib">Minimum Received</span>
+<span className="elem_span dib float-right">0.000</span>
+</div>
+<div class="submit_btn">
+<button type="button" class="btn  btn_swap">Swap</button>
+
+</div>
+</div>
+
+                               </div>
+                        </div>
+                        </div>
+                     </div>
+                     <div className="tab-pane" id="tab-5">
+                        <div className="row">
+                           <h1>Bridge</h1>
+                        </div>
+                     </div>
+                     <div className="tab-pane" id="tab-6">
+                        <div className="row">
+                           <div className="col-lg-4">
+                              <div className="feature-img">
+                                 <img src="images/user-img-1.jpg" alt="" className="img-fluid" />
+                              </div>
+                           </div>
+                           <div className="col-lg-8 details">
+                              <h3 className="mt-3">Why do we use it?</h3>
+                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+    </div>
+  );
+};
+  
+export default Dapp;
