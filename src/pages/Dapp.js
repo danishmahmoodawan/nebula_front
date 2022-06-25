@@ -271,7 +271,7 @@ const Dapp = () => {
         if(status === 'connected'){
             return <div>Daily Rewards : 0.2 <span className="tokenSpan">Nebu </span>/ Day / NebulaNode</div>
         }else{
-            return <div>Connect your Metamask to stake <span className="tokenSpan">Nebu</span></div>
+            return <div className="elem_span">Connect your Metamask to stake <span className="tokenSpan">Nebu</span></div>
         }
     }
 
@@ -1220,7 +1220,7 @@ const Dapp = () => {
                                                 </div>
                                             </div>
                                             {/* NewCode */}
-                                            <div className='toCenter'>
+                                            <div className='toCenter btn_conect'>
                                                 <div>
                                                     <Button onClick={handleMainButtonClick} text={status === 'connected' ? 'Get Rewards' : 'Connect to Metamask'} width='250px' />
                                                     <Button text={status === 'connected' ? 'Compound All Node' : 'Connect to Metamask'} onClick={handleCompoundNodeButtonClick} width='200px'/>
@@ -1287,7 +1287,9 @@ const Dapp = () => {
                                 </div>
                                 <div className="tab-pane" id="tab-3">
                                     <div className="row">
-                                        <h1>NFT's</h1>
+                                    <div className="col-sm-12 text-center">
+                                        <h1 className="blink_me">COMING SOON...</h1>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="tab-pane" id="tab-4">
@@ -1334,8 +1336,9 @@ const Dapp = () => {
                                 </div>
                                 <div className="tab-pane" id="tab-5">
                                     <div className="row">
-                                        <h1>Bridge</h1>
-                                    </div>
+                                    <div className="col-sm-12">
+                                    <h1 className="blink_me">COMING SOON...</h1>
+                                    </div> </div>
                                 </div>
                                 <div className="tab-pane" id="tab-6">
                                     <div className="row">

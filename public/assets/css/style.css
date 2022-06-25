@@ -454,7 +454,7 @@ border-radius: 14px;
     padding: 31px 23px;  
 background: #252B53;
 border-radius: 32px;
-max-width: 414px;
+max-width: 500px;
 width: 100%;
 margin: 0 auto;
 }
@@ -628,3 +628,46 @@ margin: 8px 0 5px 0;
         font-size: 18px;
     }
 }
+.buttonStyle{
+    background: #FFFFFF;
+    border-radius: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 10px;
+    border: none;
+    color: #2C2C2C;
+    margin: 20px 7px 10px 7px;
+}
+.buttonStyle:hover{
+    text-decoration: none;
+    color: white;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.3s;
+}
+.tokenSpan{
+font-weight: bold;
+}
+.blink_me {
+    animation: blinker 1s linear infinite;
+    color: white;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.3s;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 40px;
+    border-radius: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  @keyframes blinker {
+    5% {
+      opacity: 0;
+    }
+  }
