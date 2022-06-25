@@ -26,7 +26,7 @@ function Home() {
                             <a className="nav-link" href="https://docs.nebulanodes.finance">Docs</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://app.nebulanodes.finance">Dapp</a>
+                            <a className="nav-link" href="/Dapp">Dapp</a>
                         </li>
                          
                     </ul>
@@ -62,7 +62,7 @@ function Home() {
 				</div>
 				</div>
                 </section>
-                <span class="circledot"></span>
+                <span className="circledot"></span>
                 <section id="overseer " className="second_sec ">
 	<div className="container  nebula_sec">
 		<div className="row">
@@ -82,7 +82,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 				</div>
 				</div>
                 </section>
-                <span class="dimonds"></span>
+                <span className="dimonds"></span>
                 <section id="About_nebula " className="third_sec ">
 	<div id="tokenmics" className="container  nebula_sec">
 		<div className="row">
@@ -105,7 +105,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
                            </div>
 				</div>
                 <div className="col-sm-12 col-md-12 col-lg-2"> 
-                <img class="image_ad" src="assets/images/sec3inner.png" />
+                <img className="image_ad" src="assets/images/sec3inner.png" />
                 </div>
 				</div>
 				</div>
@@ -120,7 +120,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 				</div>
                 <div className="row">
 			<div className="col-sm-12 col-md-12 col-lg-12 p-0">
-            <img class="" src="assets/images/svgnewa.png" />    
+            <img className="" src="assets/images/svgnewa.png" />    
    
 				</div>
 				</div>
@@ -139,7 +139,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
                           
 				</div>
                 <div className="col-sm-12 col-md-4 col-lg-2 text-center p-0">
-        <div class="footer_links">
+        <div className="footer_links">
         <ul className="navbar-nav m-auto">
                         <li className="nav-item active">
                             <a className="nav-link" href="#home">Home</a>
