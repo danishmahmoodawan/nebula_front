@@ -6,7 +6,7 @@ function Home() {
    <> 
    <div className="container-fluid bg-nav">
             <nav className="navbar navbar-expand-lg navbar-light ">
-                <a className="navbar-brand" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>
+                <a className="navbar-brand" href="/"><img className="logo_s" src="assets/images/logo.png"/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

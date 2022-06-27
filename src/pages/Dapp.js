@@ -1139,7 +1139,7 @@ const Dapp = () => {
             {/* <p>{status === 'connected' ? minifyAddress(account) : 'Connect to Metamask' }</p> */}
             <div className="header-dapp container-fluid">
                 <nav className="navbar navbar-expand-lg navbar-light ">
-                    <a className="navbar-brand" href="#"><img className="logo_s" src="assets/images/logo.png"/></a> 
+                    <a className="navbar-brand" href="/"><img className="logo_s" src="assets/images/logo.png"/></a> 
                 </nav>
             </div>
             <section className="tabs-section text-white">
