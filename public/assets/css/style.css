@@ -80,9 +80,9 @@ width: 100%;
     margin: auto;
     display: block;
     position: absolute;
-    bottom: -2em;
+    bottom: -7em;
     width: 250px;
-    right: -2em;
+    right: 3em;
 }
 .btn_ion{
     background: #FFFFFF;
@@ -180,7 +180,7 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
 }
 
 
-@media screen and (max-width: 1220px) and (min-width: 992px) {
+@media screen and (max-width: 1024px) and (min-width: 992px) {
     .first_sec{
         padding: 18% 10%;
     }
@@ -189,18 +189,70 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
         top: -4em;
     }
     .third_sec{
-        padding: 3% 10%;
+        padding: 7% 5% 21% 9%;
+     
     }
     .para_p{
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 26px;
     }
     .image_ad{
         bottom: 1em;
     width: 200px;
-    right: 1em;
+    right: 4em;
+    }
+    .btn_soc {
+        margin-top: 3%;
     }
 }
-
+@media screen and (max-width: 1499px) and (min-width: 1025px) {
+    .first_sec{
+        padding: 18% 10%;
+    }
+    .second_sec{
+        padding: 7% 5% 21% 9%;
+        top: -4em;
+    }
+    .third_sec{
+        padding: 7% 5% 21% 9%;
+        top: -6em;
+     
+    }
+    .para_p{
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .image_ad{
+        bottom: -3em;
+    width: 200px;
+    right: 7em;
+    }
+    .btn_soc {
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 1780px) and (min-width: 1500px) {
+    .first_sec{
+        padding: 18% 10%;
+    }
+    .second_sec{
+        padding: 7% 5% 21% 9%;
+        top: -4em;
+    }
+    .third_sec{
+        padding: 7% 5% 21% 9%;
+        top: -6em;
+     
+    }
+    .btn_soc {
+        margin-top: 3%;
+    }
+}
+@media only screen and (min-width: 1781px) {
+    .third_sec{
+        padding:14% 15%;
+    }
+}
 @media screen and (max-width: 1600px) and (min-width: 993px) {
    
   }
@@ -297,8 +349,9 @@ margin: 0 auto;
             font-size: 32px;
         }
         .para_p {
-font-size: 18px;
+font-size: 17px;
         }
+       
         br{
             display: none;
         }

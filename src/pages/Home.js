@@ -133,7 +133,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 	<div className="container-fluid ">
 		<div className="row">
 			<div className="col-sm-12 col-md-4 col-lg-2 text-center p-0">
-            <a className="navbar-brand navbar-footer" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>                 
+            <a className="navbar-brand navbar-footer" href="/"><img className="logo_s" src="assets/images/logo.png"/></a>                 
 				</div>
                 <div className="col-sm-12 col-md-4 col-lg-5 text-center p-0">
                           
@@ -142,7 +142,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
         <div className="footer_links">
         <ul className="navbar-nav m-auto">
                         <li className="nav-item active">
-                            <a className="nav-link" href="#home">Home</a>
+                            <a className="nav-link" href="/">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#tokenmics">Tokenomics</a>
@@ -154,7 +154,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
                             <a className="nav-link" href="https://docs.nebulanodes.finance">Docs</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://app.nebulanodes.finance">Dapp</a>
+                            <a className="nav-link" href="/Dapp">Dapp</a>
                         </li>
                         
                     </ul>
