@@ -269,9 +269,9 @@ const Dapp = () => {
     
     function getUnderMainButtonText(){
         if(status === 'connected'){
-            return <div>Daily Rewards : 0.2 <span className="tokenSpan">Nebu </span>/ Day / NebulaNode</div>
+            return //<div>Daily Rewards : 0.2 <span className="tokenSpan">Nebu </span>/ Day / NebulaNode</div>
         }else{
-            return <div className="elem_span">Connect your Metamask to stake <span className="tokenSpan">Nebu</span></div>
+            return //<div className="elem_span">Connect your Metamask to stake <span className="tokenSpan">Nebu</span></div>
         }
     }
 
@@ -1151,7 +1151,7 @@ const Dapp = () => {
                                     <a className="nav-link active show" data-toggle="tab" href="#tab-1">Dashboard</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" data-toggle="tab" href="#tab-2">Nodes</a>
+                                    <a className="nav-link" data-toggle="tab" href="#tab-2">Protostars</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" data-toggle="tab" href="#tab-3">NFTs</a>
@@ -1171,7 +1171,7 @@ const Dapp = () => {
                                         <div className="row">
                                             <div className="col-sm-12 col-md-4 col-lg-4 ps">
                                                 <div className="content_div">
-                                                    <span className="elem_span">$Nebula Price</span>
+                                                    <span className="elem_span">$NeFi Price</span>
                                                     {/* This is unavailable */}
                                                     {/* getCurrentNebuBalance */}
                                                     <span className="elem_span elem_bold">{getCurrentNebuPrice()}</span>
@@ -1188,7 +1188,7 @@ const Dapp = () => {
                                             </div>
                                             <div className="col-sm-12 col-md-4 col-lg-4 ps">
                                                 <div className="content_div">
-                                                    <span className="elem_span">Overseas Fund</span>
+                                                    <span className="elem_span">Overseer Fund</span>
                                                     <span className="elem_span elem_bold">$0.0000</span>
                                                     <span className="elem_span elem_sub">+0.00٪ last 24 hours</span>
                                                 </div>
@@ -1213,7 +1213,7 @@ const Dapp = () => {
                                             </div>
                                             <div className="col-sm-4 ps">
                                                 <div className="content_div">
-                                                    <span className="elem_span">My Rewards</span>
+                                                    <span className="elem_span">My NeFi</span>
                                                     {/* {getTotalDaily()} */}
                                                     {/* {getPendingRewards()} */}
                                                     <span className="elem_span elem_bold">-$nebula</span>
@@ -1222,8 +1222,8 @@ const Dapp = () => {
                                             {/* NewCode */}
                                             <div className='toCenter btn_conect'>
                                                 <div>
-                                                    <Button onClick={handleMainButtonClick} text={status === 'connected' ? 'Get Rewards' : 'Connect to Metamask'} width='250px' />
-                                                    <Button text={status === 'connected' ? 'Compound All Node' : 'Connect to Metamask'} onClick={handleCompoundNodeButtonClick} width='200px'/>
+                                                    <Button onClick={handleMainButtonClick} text={status === 'connected' ? 'Get Rewards' : 'Wallet Connect'} width='250px' />
+                                                    <Button text={status === 'connected' ? 'Compound' : 'Wallet Connect'} onClick={handleCompoundNodeButtonClick} width='200px'/>
                                                 </div>
                                                 {getUnderMainButtonText()}
                                             </div>
@@ -1239,14 +1239,14 @@ const Dapp = () => {
                                             <div className="col-sm-6 ps">
                                                 <div className="col-sm-12 p-0 ps ">
                                                     <div className="content_div marsets">
-                                                        <span className="elem_span">Node ROI in $nebula (Days)</span>
+                                                        <span className="elem_span">ROI in Days</span>
                                                         <span className="elem_span elem_bold mb-3">infinity</span>
                                                     </div>
                                                 </div>
                                                 <div className="col-sm-12 p-0 ps">
                                                     <div className="content_div marset">
-                                                        <span className="elem_span">Daily reward per node </span>
-                                                        <span className="elem_span elem_bold mb-3">0.00 $nebula</span>
+                                                        <span className="elem_span">Daily Protostar Rewards </span>
+                                                        <span className="elem_span elem_bold mb-3">0.00 $NeFi</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1257,28 +1257,29 @@ const Dapp = () => {
                                     <div className="row">
                                         <div className="col-sm-12">
                                             <div className="main_node">
-                                                <h3>Nodes</h3>
+                                                <h3>Protostars</h3>
                                                 <form>
                                                     <label className="elem_span">
-                                                    Nebula node name 
-                                                    <input className="txts_feild" type="text" name="name" />
+                                                    Protostars name 
+                                                    <input id="nebula_price"  className="txts_feild" type="text" name="nebula_price" placeholder="Must be 3 letter or more"  />
+                                                  
                                                     </label>
                                                     <label className="elem_span ">
-                                                    Nebula tokens 
-                                                    <input className="txts_feild "  placeholder="eg(10.0)" type="text" name="name" />
+                                                    NeFi tokens used 
+                                                    <input className="txts_feild "  defaultValue="10" placeholder="eg(10.0)" type="text" name="name" onChange />
                                                     </label>
                                                 </form>
                                                 {/* NewCode */}
                                                 <div>
-                                                    <Button text={status === 'connected' ? 'Create a NebulaNode' : 'Connect to Metamask'} onClick={handleCreateNodeButtonClick} width='200px'/>
-                                                    <Button text={status === 'connected' ? 'Migrate Old Node' : 'Connect to Metamask'} onClick={handleMigrateNodeButtonClick} width='200px'/>
+                                                    <Button text={status === 'connected' ? 'Create my Protostar' : 'Wallet Connect'} onClick={handleCreateNodeButtonClick} width='200px'/>
+                                                    <Button text={status === 'connected' ? 'Migrate Old Node' : 'Wallet Connect'} onClick={handleMigrateNodeButtonClick} width='200px'/>
                                                 </div>
                                                 <div className="instruct">
                                                     <h3>Note</h3>
-                                                    <h4>1 NebulaNode = 10 Nebu (if you have any problem
-                                                        during migration send a message in
-                                                        v2-migrate-help on discord)
-                                                    </h4>
+                                                    <h4>1.) A maintenance Fee of 15$ paid in USDC will be charged on a monthly basis per Protostar</h4>
+                                                    <h4>2.) 10 NeFi tokens are needed in order to create a Protostar, once it has been created the tokens are non-refundable and cannot be returned.</h4>
+                                                    <h4>3.) Please be sure to read our documents thoroughly for all distribution percentages</h4>
+
                                                 </div>
                                                 
                                             </div>
@@ -1359,6 +1360,7 @@ const Dapp = () => {
                 </div>
             </section>
         </div>
+      
     );
     };
   

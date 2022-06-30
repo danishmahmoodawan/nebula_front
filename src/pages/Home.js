@@ -20,7 +20,7 @@ function Home() {
                             <a className="nav-link" href="#tokenmics">Tokenomics</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#roadmap">How To Buy</a>
+                            <a className="nav-link" href="#buy">How To Buy</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="https://docs.nebulanodes.finance">Docs</a>
@@ -88,20 +88,28 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 		<div className="row">
 			<div className="col-sm-12 col-md-12 col-lg-10">
             <h1 className="h1_heading set_font"> Tokenomics</h1>
-            <p className="para_p  ">-Total Supply : 1,200,000 NeFi Tokens <br/>
-            - Payout : 0.1 of a token per day <br/>
-            -Price per node : 10 NeFi tokens150,000<br/>
-            Node Cap : 150,000<br/>
+            <p className="para_p  ">1.) Total Supply : 1,200,000 NeFi Tokens <br/>
+            2.) Payout : 0.1 of a token per day <br/>
+            3.) Price per node : 10 NeFi tokens 150,000<br/>
             </p>
-            <p className="para_p  ">-To purchase our token head over to our in house swap located at <br/> http://swap.nebfi.io/ and purchase 10 NeFi tokens then goto our <br/>DApp to get your ticket to be a Nebulan!v
+    
+				</div>
+    
+				</div>
+				</div>
+                </section>
 
-<br/>
-
-
+                           <section id="About_nebula " className="third_sec ">
+	<div id="buy" className="container  nebula_sec">
+		<div className="row">
+			<div className="col-sm-12 col-md-12 col-lg-10">
+            <h1 className="h1_heading set_font"> How To buy</h1>
+            <p className="para_p  ">
+            To purchase our token head over to our in house swap located within the DApp under the "Swap" tab, purchase 10 NeFi tokens, switch to the "Protostars" tab and create your protostar to become a Nebulan!
             </p>
             <div className="btn_soc">
-                              <a  className="btn_ion" href="https://traderjoexyz.com/trade?outputCurrency=0x5AA2Ff4Ab706307d8B3D90A462c1ddC055655734#/" target={{target:"_blank"}}>
-                            Buy on Trader Joe </a>
+                              <a  className="btn_ion" href="/Dapp" target={{target:"_blank"}}>
+                              DApp </a>
                            </div>
 				</div>
                 <div className="col-sm-12 col-md-12 col-lg-2"> 
@@ -138,17 +146,17 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
                 <div className="col-sm-12 col-md-4 col-lg-5 text-center p-0">
                           
 				</div>
-                <div className="col-sm-12 col-md-4 col-lg-2 text-center p-0">
-        <div className="footer_links">
+                <div className="col-sm-12 col-md-4 col-lg-3 text-center p-0">
+        <div className="footer_links tabs-section">
         <ul className="navbar-nav m-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="/">Home</a>
+                        <li className="nav-item ">
+                            <a className="nav-link active show" href="/">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#tokenmics">Tokenomics</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#roadmap">How To Buy</a>
+                            <a className="nav-link" href="#buy">How To Buy</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="https://docs.nebulanodes.finance">Docs</a>

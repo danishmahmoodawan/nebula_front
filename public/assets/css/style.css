@@ -16,7 +16,7 @@ padding: 8% 5%; */
 /* border-radius: 64px; */
 }
 .footer_sec{
-    padding: 2%;
+    padding: 5% 3% 2% 3%;
 }
 .icons_footer{
 padding: 3% 0 0 0;
@@ -61,17 +61,28 @@ width: 100%;
     top: -6em;
 }
 .third_sec{
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: contain;
     background-image: url('image_second_3.png') !important;
     padding: 8% 12%;
     z-index: 125;
     position: relative;
-    top: -10em;
+    top: -10em; */
+}
+.third_sec {
+    background-image: linear-gradient(108.98deg, rgba(255, 255, 255, 0.37) -9.68%, rgba(255, 255, 255, 0.26) -9.67%, rgba(217, 217, 217, 0) 99.34%) !important;
+backdrop-filter: blur(40px) !important;
+/* Note: backdrop-filter has minimal browser support */
+border: 2px solid #ffffff36;
+
+border-radius: 50px;
+position: unset !important;
+margin: 5% 8%;
+padding: 10% 5% 10% 5%;
 }
 .map_sec{
     position: relative;
-    top: -10em;
+    top: 1em;
 }
 .set_font{
     text-transform: capitalize !important;
@@ -189,7 +200,7 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
         top: -4em;
     }
     .third_sec{
-        padding: 7% 5% 21% 9%;
+        padding: 5% 5% 8% 9%;
      
     }
     .para_p{
@@ -205,33 +216,27 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
         margin-top: 3%;
     }
 }
-@media screen and (max-width: 1499px) and (min-width: 1025px) {
-    .first_sec{
-        padding: 18% 10%;
-    }
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  
     .second_sec{
-        padding: 7% 5% 21% 9%;
-        top: -4em;
+        /* padding: 7% 5% 21% 9%; */
+        top: -8em;
     }
     .third_sec{
-        padding: 7% 5% 21% 9%;
+        padding: 7% 5% 10% 9%;
         top: -6em;
-     
     }
-    .para_p{
-        font-size: 19px;
-        line-height: 26px;
-    }
+  
     .image_ad{
-        bottom: -3em;
-    width: 200px;
-    right: 7em;
+        bottom: -7em;
+        width: 200px;
+        right: -1em;
     }
     .btn_soc {
         margin-top: 3%;
     }
 }
-@media screen and (max-width: 1780px) and (min-width: 1500px) {
+@media screen and (max-width: 1780px) and (min-width: 1441px) {
     .first_sec{
         padding: 18% 10%;
     }
@@ -240,13 +245,11 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
         top: -4em;
     }
     .third_sec{
-        padding: 7% 5% 21% 9%;
+        /* padding: 3% 5% 3% 5%; */
         top: -6em;
      
     }
-    .btn_soc {
-        margin-top: 3%;
-    }
+  
 }
 @media only screen and (min-width: 1781px) {
     .third_sec{
@@ -459,6 +462,10 @@ text-align: center;
 
 color: #FFFFFF;
 }
+.footer_links .nav-link {
+    display: block;
+    padding: 0.5rem 1rem !important;
+}
 .tabs-section .nav-link:hover {
     color: #cddc39;
 }
@@ -562,7 +569,8 @@ color: #FFFFFF;
 background: #D9D9D9;
 border-radius: 4px;
 float: right;
-width: 148px;
+width: 200px;
+padding-left: 10px;
 }
 
 .txtss_feild{
