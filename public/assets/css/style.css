@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body{
     background: #070B26;
@@ -22,7 +23,7 @@ padding: 8% 5%; */
 padding: 3% 0 0 0;
 }
 .h1_heading{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 64px;
@@ -31,6 +32,7 @@ padding: 3% 0 0 0;
     text-transform: uppercase;
 }
 .h1_head_sml{
+    font-family: 'Poppins', sans-serif;
     font-weight: 900;
 font-size: 40px;
 line-height: 30px;
@@ -511,6 +513,7 @@ color: #FFFFFF;
 .footer_links .nav-link {
     display: block;
     padding: 0.5rem 1rem !important;
+    margin: 0 auto !important;
 }
 .tabs-section .nav-link:hover {
     color: #cddc39;
