@@ -6,13 +6,15 @@ function Home() {
    <> 
    <div className="container-fluid bg-nav">
             <nav className="navbar navbar-expand-lg navbar-light ">
-                <a className="navbar-brand" href="/"><img className="logo_s" src="assets/images/logo.png"/></a>
+            <a className="navbar-brand " href="/"><img className="logo_s" src="assets/images/logo.png"/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
             
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav m-auto">
+                    <li className="nav-item"> <a className="navbar-brand hd_m" href="/"><img className="logo_s logo_m" src="assets/images/logo.png"/></a>
+                    </li>
                         <li className="nav-item active">
                             <a className="nav-link" href="#home">Home</a>
                         </li>
@@ -83,7 +85,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 				</div>
                 </section>
                 <span className="dimonds"></span>
-                <section id="About_nebula " className="third_sec ">
+                <section id="About_nebula " className="third_sec token_nomics ">
 	<div id="tokenmics" className="container  nebula_sec">
 		<div className="row">
 			<div className="col-sm-12 col-md-12 col-lg-10">
@@ -99,7 +101,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 				</div>
                 </section>
 
-                           <section id="About_nebula " className="third_sec ">
+                           <section id="About_nebula " className="third_sec hwtby ">
 	<div id="buy" className="container  nebula_sec">
 		<div className="row">
 			<div className="col-sm-12 col-md-12 col-lg-10">
