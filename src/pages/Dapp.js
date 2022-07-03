@@ -1137,16 +1137,53 @@ const Dapp = () => {
     return (
         <div>
             {/* <p>{status === 'connected' ? minifyAddress(account) : 'Connect to Metamask' }</p> */}
-            <div className="header-dapp container-fluid">
+            <div className="header-dapp container-fluid bg-nav">
+
                 <nav className="navbar navbar-expand-lg navbar-light ">
                     <a className="navbar-brand" href="/"><img className="logo_s" src="assets/images/logo.png"/></a> 
                 </nav>
             </div>
+
+
+
+ <div className="container-fluid bg-nav tabs_g tabs-section">
+            <nav className="navbar navbar-expand-lg navbar-light navs_hyd ">
+                <button className="navbar-toggler navbar_btnss" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+            
+                <div className="collapse navbar-collapse hyd_navs" id="navbarText">
+                 
+
+  <ul className="nav nav-tabs navbar-nav m-auto">
+  <li className="nav-item"> <a className="navbar-brand hd_m" href="/"><img className="logo_s logo_m" src="assets/images/logo.png"/></a>
+                    </li>
+                                <li className="nav-item btn_dash">
+                                    <a className="nav-link show" data-toggle="tab" href="#tab-1">Dashboard</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" data-toggle="tab" href="#tab-2">Protostars</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" data-toggle="tab" href="#tab-3">NFTs</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" data-toggle="tab" href="#tab-4">Swap</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" data-toggle="tab" href="#tab-5">Bridge</a>
+                                </li>
+                            </ul>
+
+                </div>
+            </nav>
+        </div>
+
             <section className="tabs-section text-white">
                 <div className="container cont_tabs">
                     <div className="row">
                         <div className="col-sm-12 col-md-4 col-lg-4 col_side">
-                            <ul className="nav nav-tabs flex-column mb-3">
+                            <ul className="nav nav-tabs navtbass flex-column mb-3">
                                 <li className="nav-item">
                                     <a className="nav-link active show" data-toggle="tab" href="#tab-1">Dashboard</a>
                                 </li>

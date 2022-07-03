@@ -789,10 +789,25 @@ font-weight: bold;
             width: 55% !important;
             padding-left: 5%;
         }
-
+        
+  @media (max-width: 767px) {
+        .navtbass{
+            display: none;
+                }
+                .hd_m, .navs_hyd{
+                    display: block !important;
+                        }
+            }
   @media (max-width: 768px) {
     .header-dapp{
-        margin: 30px 0;
+        margin: 30px  0 5px 0;
+    }
+   .tabs_g{
+        margin-top: 0 !important;
+    }
+    .logo_m{
+        margin: 0 auto;
+        display: block;
     }
     .bg-nav{
 background: #070B26;
@@ -817,7 +832,14 @@ background: #070B26;
         width: 75%;
         height: 100%;
     }
-
+.navbar-collapses{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 100%; 
+}
     .navbar-collapse.collapsing {
         left: -75%;
         transition: height 0s ease;
@@ -831,7 +853,33 @@ background: #070B26;
     .navbar-toggler.collapsed ~ .navbar-collapse {
         transition: left 500ms ease-in-out;
     }
-    .hd_m{
-display: block;
+    
+  
+    .hyd_navs {
+        margin-top: 5%;
+    }
+    .btn_dash{
+        margin-top: 20px;
+    }
+    .navbar_btnss{
+margin-left: 80%;
+    }
+    .tabs_g .nav-link{
+        font-size: 20px;
+    }
+    .tabs_g .nav-link::before{
+        width: 22px !important;
+        top: 1.2em;
+        left: 1.5em;
+    }
+    .tabs_g .nav-link{
+        margin: 6px 10px;
+    }
+    .blink_me{
+        font-size: 28px;
     }
 }
+
+.navs_hyd{
+    display: none;
+} 
