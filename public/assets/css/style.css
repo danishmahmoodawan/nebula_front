@@ -409,6 +409,9 @@ font-size: 17px;
         br{
             display: none;
         }
+        .token_nomics br{
+            display: block;
+        }
         .image_ad{
     position: unset;
     width: 100%;

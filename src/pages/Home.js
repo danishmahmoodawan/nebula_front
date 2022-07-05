@@ -90,9 +90,9 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 		<div className="row">
 			<div className="col-sm-12 col-md-12 col-lg-10">
             <h1 className="h1_heading set_font"> Tokenomics</h1>
-            <p className="para_p  ">1.) Total Supply : 1,200,000 NeFi Tokens <br/>
-            2.) Payout : 0.1 of a token per day <br/>
-            3.) Price per node : 10 NeFi tokens 150,000<br/>
+            <p className="para_p  ">1.) Total Supply : 1,200,000 NeFi Tokens. <br/>
+            2.) Payout : 0.1 of a token per day. <br/>
+            3.) Price per node : 10 NeFi tokens 150,000.<br/>
             </p>
     
 				</div>
@@ -130,7 +130,7 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
 				</div>
                 <div className="row">
 			<div className="col-sm-12 col-md-12 col-lg-12 p-0">
-            <img className="" src="assets/images/svgnewa.png" />    
+            <img className="" src="assets/images/roadmap_new.png" />    
    
 				</div>
 				</div>

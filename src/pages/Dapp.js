@@ -1253,7 +1253,7 @@ const Dapp = () => {
                                                     <span className="elem_span">My NeFi</span>
                                                     {/* {getTotalDaily()} */}
                                                     {/* {getPendingRewards()} */}
-                                                    <span className="elem_span elem_bold">-$nebula</span>
+                                                    <span className="elem_span elem_bold">-$Nefi</span>
                                                 </div>
                                             </div>
                                             {/* NewCode */}
