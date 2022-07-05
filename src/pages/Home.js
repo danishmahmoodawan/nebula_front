@@ -173,8 +173,8 @@ Our protocol is watched meticulously by our Overseer System day <br/>and night. 
                
 </div>
 <div className="row icons_footer"> 
-<div className="col-sm-12 text-right ">
-<span className="navbar-text " >
+<div className="col-sm-12 text-right">
+<span className="navbar-text" >
                             <a href="https://medium.com/@wearenebulan" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/icon/medium_icon.png"/>
                             </a>

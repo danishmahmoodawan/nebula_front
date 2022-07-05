@@ -1173,6 +1173,17 @@ const Dapp = () => {
                                 <li className="nav-item">
                                     <a className="nav-link" data-toggle="tab" href="#tab-5">Bridge</a>
                                 </li>
+                                <li className="nav-item">
+                                <button className="btn_cion btn">
+                            <img class="seicon" src="assets/images/metamask.svg" />
+                           <span className="text_icn"> Metamask </span>
+                            </button>
+                                </li>
+                                <li className="nav-item">
+                                <button className="btn_cion btn">
+                            <img class="seicon" src="assets/images/walletconnect.svg" />
+                           <span className="text_icn"> WalletConnect </span></button>
+                           </li>
                             </ul>
 
                 </div>
@@ -1199,6 +1210,17 @@ const Dapp = () => {
                                 <li className="nav-item">
                                     <a className="nav-link" data-toggle="tab" href="#tab-5">Bridge</a>
                                 </li>
+                                <li className="nav-item">
+                                <button className="btn_cion btn">
+                            <img class="seicon" src="assets/images/metamask.svg" />
+                           <span className="text_icn"> Metamask </span>
+                            </button>
+                                </li>
+                                <li className="nav-item">
+                                <button className="btn_cion btn">
+                            <img class="seicon" src="assets/images/walletconnect.svg" />
+                           <span className="text_icn"> WalletConnect </span></button>
+                           </li>
                             </ul>
                         </div>
                         <div className="col-sm-12 col-md-8 col-lg-8">
@@ -1250,7 +1272,7 @@ const Dapp = () => {
                                             </div>
                                             <div className="col-sm-4 ps">
                                                 <div className="content_div">
-                                                    <span className="elem_span">My NeFi</span>
+                                                    <span className="elem_span">My Reward</span>
                                                     {/* {getTotalDaily()} */}
                                                     {/* {getPendingRewards()} */}
                                                     <span className="elem_span elem_bold">-$Nefi</span>
